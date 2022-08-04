@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -18,4 +20,22 @@ h1 {
 h2 {
   font-size: 1.5rem;
   color: #2c292b;
+}
+
+.app {
+  padding: 3rem;
+}
+
+.box-container {
+  padding-bottom: 20rem;
+}
+
+.box {
+  height: 15rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
 }
