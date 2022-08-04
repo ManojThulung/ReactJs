@@ -39,3 +39,12 @@ h2 {
   justify-content: center;
   background-color: aquamarine;
 }
+
+.boxItem {
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: white;
+  list-style: none;
+  padding: 1.5rem;
+  margin: 0.5rem;
+}

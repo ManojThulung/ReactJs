@@ -1,9 +1,6 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
 
 function Box2() {
-  const [isAnimating, setIsAnimating] = useState(false);
-
   return (
     <div className="box-container">
       <motion.div
@@ -18,6 +15,7 @@ function Box2() {
           right: 20,
           top: 5,
           bottom: 5,
+          left: 0,
         }}
         whileHover={{
           scale: 1.1,
